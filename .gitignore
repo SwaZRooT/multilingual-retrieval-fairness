@@ -8,3 +8,4 @@ results/rag_tr_cache_*.jsonl
 results/translate.log
 nohup.out
 .ipynb_checkpoints/
+data/processed/*2en.jsonl
