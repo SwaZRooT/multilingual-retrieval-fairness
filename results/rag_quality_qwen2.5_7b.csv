@@ -1,0 +1,4 @@
+llm,lang,n,retrieval_hit@1,oracle_acc,rag_acc,avg_sec_per_q
+qwen2.5:7b,en,100,0.92,0.91,0.86,3.547
+qwen2.5:7b,hi,100,0.8,0.68,0.59,14.714
+qwen2.5:7b,ml,100,0.83,0.51,0.45,23.91

@@ -1,0 +1,15 @@
+llm,lang,pipeline,rag_acc,ci_lo,ci_hi
+qwen2.5:3b,en,native,0.82,0.74,0.89
+qwen2.5:3b,hi,native,0.59,0.49,0.69
+qwen2.5:3b,hi,translate,0.6,0.5,0.69
+qwen2.5:3b,ml,native,0.4,0.31,0.49
+qwen2.5:3b,ml,translate,0.56,0.46,0.65
+qwen2.5:3b,hi,translate minus native (paired),0.01,-0.11,0.13
+qwen2.5:3b,ml,translate minus native (paired),0.16,0.02,0.29
+qwen2.5:7b,en,native,0.86,0.79,0.92
+qwen2.5:7b,hi,native,0.59,0.5,0.68
+qwen2.5:7b,hi,translate,0.67,0.57,0.76
+qwen2.5:7b,ml,native,0.45,0.35,0.55
+qwen2.5:7b,ml,translate,0.59,0.49,0.68
+qwen2.5:7b,hi,translate minus native (paired),0.08,-0.03,0.19
+qwen2.5:7b,ml,translate minus native (paired),0.14,0.02,0.26

@@ -1,0 +1,17 @@
+model,lang,method,Recall@1,gap_to_en_dense
+e5-small,hi,baseline dense,0.789,0.119
+e5-small,hi,hybrid w0.7 (4-gram BM25),0.829,0.079
+e5-small,hi,translate + dense,0.797,0.111
+e5-small,hi,translate + hybrid w0.7,0.838,0.07
+e5-small,ml,baseline dense,0.769,0.139
+e5-small,ml,hybrid w0.7 (4-gram BM25),0.88,0.028
+e5-small,ml,translate + dense,0.828,0.08
+e5-small,ml,translate + hybrid w0.7,0.843,0.064
+bge-m3,hi,baseline dense,0.823,0.09
+bge-m3,hi,hybrid w0.7 (4-gram BM25),0.849,0.064
+bge-m3,hi,translate + dense,0.847,0.067
+bge-m3,hi,translate + hybrid w0.7,0.862,0.051
+bge-m3,ml,baseline dense,0.846,0.068
+bge-m3,ml,hybrid w0.7 (4-gram BM25),0.906,0.008
+bge-m3,ml,translate + dense,0.851,0.062
+bge-m3,ml,translate + hybrid w0.7,0.872,0.041

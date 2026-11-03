@@ -1,0 +1,10 @@
+step,CPU time,note
+e5-small encode (3 langs),~55 s,"baseline, small model"
+bge-m3 encode (3 langs),~620 s,about 10x e5-small
+BM25 / hybrid,seconds,"no model, no GPU"
+"Translate queries (900, per lang)","~1,400 s",about 1.5 s/query
+Translate corpus hi (488),"3,277 s",about 6.8 s/passage
+Translate corpus ml (488),"~3,500 s est.",log inflated by laptop suspend; pre-stall rate 7.3 s/passage
+Fine-tune e5-small (1 epoch),663 s,no measurable gain
+"LLM 3b/7b per question, native ml",10.6 s / 23.9 s,long Malayalam prompts
+"LLM 3b/7b per question, translated ml",1.6 s / 3.6 s,plus translation cost

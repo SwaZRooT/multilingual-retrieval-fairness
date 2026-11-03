@@ -1,0 +1,3 @@
+pipeline,lang,n,retrieval_hit@1,oracle_acc,rag_acc,avg_llm_sec_per_q
+translate,hi,100,0.88,0.72,0.67,3.582
+translate,ml,100,0.86,0.64,0.59,3.573

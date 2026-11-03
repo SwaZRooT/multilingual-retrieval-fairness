@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+data/raw/
+results/emb/
+results/rag_cache_*.jsonl
+results/rag_tr_cache_*.jsonl
+results/translate.log
+nohup.out
+.ipynb_checkpoints/
