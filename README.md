@@ -26,3 +26,11 @@ See results/*.csv and results/language_gap.png.
 - Raw Belebele rows are not aligned across languages; they are joined on (link, question_number).
 - Early hybrid results used a broken tokenizer (\w+ splits Indic words); fixed and rerun.
 - Hardware: CPU only. Malayalam corpus translation time in the log is inflated by a laptop suspend.
+
+## Deliverables
+- Technical report: docs/Multilingual_Retrieval_Fairness_Report.docx
+- Results notebook: notebooks/results.ipynb
+- Data card: DATA_CARD.md
+- Architecture diagram: docs/architecture.png
+- Demo script: src/run_demo.sh (reads saved results; runs in seconds)
+- Demo video: PASTE_LINK_HERE

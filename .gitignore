@@ -9,3 +9,5 @@ results/translate.log
 nohup.out
 .ipynb_checkpoints/
 data/processed/*2en.jsonl
+checkpoints/
+checkpoints/
