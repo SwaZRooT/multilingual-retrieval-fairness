@@ -33,4 +33,4 @@ See results/*.csv and results/language_gap.png.
 - Data card: DATA_CARD.md
 - Architecture diagram: docs/architecture.png
 - Demo script: src/run_demo.sh (reads saved results; runs in seconds)
-- Demo video: PASTE_LINK_HERE
+- Demo video: https://drive.google.com/file/d/1HFZtLTzXM7eNPszIb_1H0aPi-156CwD-/view?usp=sharing
